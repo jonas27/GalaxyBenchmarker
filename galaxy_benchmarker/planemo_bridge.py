@@ -10,7 +10,7 @@ import urllib3
 from galaxy_bridge import Galaxy
 # from destination import PulsarMQDestination
 from planemo import options
-from planemo.cli import Context
+from planemo.context import PlanemoContext as Context
 from planemo.engine import engine_context
 from planemo.galaxy.test import handle_reports_and_summary
 from planemo.runnable import for_paths
